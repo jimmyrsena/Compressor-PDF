@@ -1,0 +1,72 @@
+/* style.css - Modo automático (claro/escuro) */
+
+:root {
+  color-scheme: light dark;
+  --bg-light: #ffffff;
+  --bg-dark: #121212;
+  --text-light: #000000;
+  --text-dark: #ffffff;
+  --primary: #4CAF50;
+  --border: #ccc;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--bg-light);
+  color: var(--text-light);
+  padding: 2em;
+  transition: all 0.3s ease;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--bg-dark);
+    color: var(--text-dark);
+  }
+  input, select, button {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #444;
+  }
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 2em;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select, button {
+  padding: 0.8em;
+  font-size: 1em;
+  border-radius: 6px;
+  border: 1px solid var(--border);
+}
+
+button {
+  background-color: var(--primary);
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#resultado {
+  margin-top: 2em;
+  max-width: 800px;
+  margin-inline: auto;
+  word-break: break-word;
+}

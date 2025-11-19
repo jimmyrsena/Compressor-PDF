@@ -1,0 +1,34 @@
+📄 Compressor de PDF Avançado
+📌 Descrição
+O Compressor de PDF Avançado é uma ferramenta projetada para reduzir o tamanho de arquivos PDF sem comprometer significativamente a qualidade. Ideal para quem precisa otimizar documentos para envio por e-mail, upload em sistemas ou armazenamento com economia de espaço.
+
+✅ Principais Funcionalidades
+
+Upload de Arquivos
+
+Permite selecionar um ou mais arquivos PDF para compressão.
+
+Níveis de Compressão Disponíveis
+
+Automático (Recomendado): Ajusta automaticamente a compressão para melhor equilíbrio entre qualidade e tamanho.
+Alta Qualidade: Mantém a qualidade máxima, com menor redução de tamanho.
+Equilíbrio: Compromisso entre qualidade e compressão.
+Máxima Compressão: Reduz ao máximo o tamanho do arquivo, podendo afetar a qualidade.
+
+🛠️ Como Funciona
+
+Clique em Procurar para selecionar um ou mais arquivos PDF.
+Escolha o nível de compressão desejado no menu suspenso.
+Inicie o processo para gerar os PDFs comprimidos.
+
+🔍 Casos de Uso
+
+Reduzir tamanho de arquivos para envio por e-mail.
+Otimizar documentos para upload em plataformas com limite de tamanho.
+Economizar espaço em armazenamento local ou em nuvem.
+
+⚠️ Benefícios
+
+Praticidade: Interface simples e intuitiva.
+Flexibilidade: Diferentes níveis de compressão para atender diversas necessidades.
+Eficiência: Redução significativa do tamanho dos arquivos.
